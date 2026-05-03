@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: kaggle_raw
+    database: MY_KAGGLEDB
+    schema: KAGGLERAW
+
+    tables:
+      - name: RAW_ORDERS
+      - name: DIM_CUSTOMERS
+      - name: DIM_PRODUCTS
